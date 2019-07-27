@@ -1,0 +1,35 @@
+.grid {
+    border: 2px darkblue solid;
+    min-height: 800px;
+    min-width: 480px;
+    display: grid;
+    grid-template-columns: 25% 25% 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+  }
+  
+  .box {
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    border: 2px fuchsia solid;
+  }
+  
+  .a {
+    grid-column: 1 / span 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  .f {
+    grid-area: 4 / span 4;
+  }
+  
+  .g {
+    grid-area: 3 / span 1;
+  }
+  
+  .h {
+    grid-area: 2 / span 2;
+  }
