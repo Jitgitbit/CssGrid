@@ -10,7 +10,7 @@
   }
   
   .box {
-    background-color: beige;
+    background-color: rgb(0, 128, 128);
     color: black;
     border-radius: 5px;
     border: 2px fuchsia solid;
